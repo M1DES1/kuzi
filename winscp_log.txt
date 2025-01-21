@@ -1,0 +1,96 @@
+. 2025-01-21 20:21:05.641 --------------------------------------------------------------------------
+. 2025-01-21 20:21:05.641 WinSCP Wersja 6.3.6 (Kompilacja 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-01-21 20:21:05.641 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2025-01-21 20:21:05.641 Log level: Normal
+. 2025-01-21 20:21:05.641 Local account: DESKTOP-HNRT157\JA
+. 2025-01-21 20:21:05.641 Working directory: C:\Users\JA\Desktop
+. 2025-01-21 20:21:05.641 Process ID: 8536
+. 2025-01-21 20:21:05.655 Ancestor processes: WinSCP, AutoHotkey, explorer, ...
+. 2025-01-21 20:21:05.655 Command-line: "C:\Program Files (x86)\WinSCP\winscp.exe" /console=6.3.6 /consoleinstance=_17900_95 "/script=C:\Users\JA\AppData\Local\Temp\winscp_script.txt" "/log=C:\Users\JA\AppData\Local\Temp\winscp_log.txt" 
+. 2025-01-21 20:21:05.656 Time zone: Current: GMT+1, Standard: GMT+1 (Środkowoeuropejski czas stand.), DST: GMT+2 (Środkowoeuropejski czas letni), DST Start: 30.03.2025, DST End: 26.10.2025
+. 2025-01-21 20:21:05.656 Login time: wtorek, 21 styczeń 2025 20:21:05
+. 2025-01-21 20:21:05.656 --------------------------------------------------------------------------
+. 2025-01-21 20:21:05.656 Script: Retrospectively logging previous script records:
+> 2025-01-21 20:21:05.656 Script: option batch abort
+< 2025-01-21 20:21:05.656 Script: batch           abort     
+> 2025-01-21 20:21:05.656 Script: option confirm off
+< 2025-01-21 20:21:05.656 Script: confirm         off       
+> 2025-01-21 20:21:05.656 Script: open sftp://gizpd3a.eea9bdc1:***@neptune.falixserver.net:2391
+. 2025-01-21 20:21:05.656 --------------------------------------------------------------------------
+. 2025-01-21 20:21:05.656 Session name: gizpd3a.eea9bdc1@neptune.falixserver.net (Ad-Hoc site)
+. 2025-01-21 20:21:05.656 Host name: neptune.falixserver.net (Port: 2391)
+. 2025-01-21 20:21:05.656 User name: gizpd3a.eea9bdc1 (Password: Yes, Key file: No, Passphrase: No)
+. 2025-01-21 20:21:05.656 Tunnel: No
+. 2025-01-21 20:21:05.656 Transfer Protocol: SFTP
+. 2025-01-21 20:21:05.656 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-01-21 20:21:05.656 Disable Nagle: No
+. 2025-01-21 20:21:05.656 Proxy: None
+. 2025-01-21 20:21:05.656 Send buffer: 262144
+. 2025-01-21 20:21:05.656 Compression: No
+. 2025-01-21 20:21:05.656 Bypass authentication: No
+. 2025-01-21 20:21:05.656 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2025-01-21 20:21:05.656 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2025-01-21 20:21:05.656 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2025-01-21 20:21:05.656 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2025-01-21 20:21:05.656 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2025-01-21 20:21:05.656 Simple channel: Yes
+. 2025-01-21 20:21:05.656 Return code variable: Autodetect; Lookup user groups: Auto
+. 2025-01-21 20:21:05.656 Shell: default
+. 2025-01-21 20:21:05.656 EOL: LF, UTF: Auto
+. 2025-01-21 20:21:05.656 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2025-01-21 20:21:05.656 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2025-01-21 20:21:05.656 SFTP Bugs: Auto,Auto
+. 2025-01-21 20:21:05.656 SFTP Server: default
+. 2025-01-21 20:21:05.656 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-01-21 20:21:05.656 Cache directory changes: Yes, Permanent: Yes
+. 2025-01-21 20:21:05.656 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-01-21 20:21:05.656 DST mode: Unix
+. 2025-01-21 20:21:05.656 --------------------------------------------------------------------------
+< 2025-01-21 20:21:05.656 Script: Wyszukiwanie hosta...
+. 2025-01-21 20:21:05.657 Looking up host "neptune.falixserver.net" for SSH connection
+. 2025-01-21 20:21:05.719 Connecting to 157.90.135.110 port 2391
+. 2025-01-21 20:21:05.756 Connected to 157.90.135.110
+< 2025-01-21 20:21:05.756 Script: Wzywanie hosta...
+. 2025-01-21 20:21:05.756 We claim version: SSH-2.0-WinSCP_release_6.3.6
+. 2025-01-21 20:21:05.756 Connected to 157.90.135.110
+. 2025-01-21 20:21:05.789 Remote version: SSH-2.0-Go
+. 2025-01-21 20:21:05.789 Using SSH protocol version 2
+. 2025-01-21 20:21:05.796 Enabling strict key exchange semantics
+. 2025-01-21 20:21:05.797 Doing ECDH key exchange with curve Curve25519, using hash SHA-256
+. 2025-01-21 20:21:05.900 Host key fingerprint is:
+. 2025-01-21 20:21:05.900 ssh-ed25519 255 SHA256:hCYN57mup2WvjZtwukcprsS5o6Hm330cniNT8iTuky0
+< 2025-01-21 20:21:05.900 Script: Uwierzytelnienie...
+. 2025-01-21 20:21:05.900 Asking user:
+. 2025-01-21 20:21:05.900 **Kontynuować łączenie się z nieznanym serwerem i dodać jego klucz hosta do pamięci podręcznej?**
+. 2025-01-21 20:21:05.900 
+. 2025-01-21 20:21:05.900 Klucz hosta nie jest buforowany dla tego serwera:
+. 2025-01-21 20:21:05.900 neptune.falixserver.net (port 2391)
+. 2025-01-21 20:21:05.900 
+. 2025-01-21 20:21:05.900 Nie masz gwarancji, że serwer jest tym komputerem, o którym myślisz.
+. 2025-01-21 20:21:05.900 
+. 2025-01-21 20:21:05.900     Odcisk palca klucza ssh-ed25519 to:
+. 2025-01-21 20:21:05.900     ssh-ed25519 255 hCYN57mup2WvjZtwukcprsS5o6Hm330cniNT8iTuky0
+. 2025-01-21 20:21:05.900 
+. 2025-01-21 20:21:05.900 Jeśli ufasz temu hostowi, wybierz Zakceptuj, aby dodać klucz do pamięci podręcznej WinSCP i kontynuuj łączenie.
+. 2025-01-21 20:21:05.900 Jeśli chcesz kontynuować łączenie tylko raz, bez dodawania klucza do pamięci podręcznej, wybierz Połącz raz.
+. 2025-01-21 20:21:05.900 Jeśli nie ufasz temu hostowi, wybierz Anuluj, aby porzucić połączenie.
+. 2025-01-21 20:21:05.900 
+. 2025-01-21 20:21:05.900 W skryptach, należy używać parametru -hostkey, aby skonfigurować oczekiwanego klucza hosta. ()
+< 2025-01-21 20:21:05.900 Script: Kontynuować łączenie się z nieznanym serwerem i dodać jego klucz hosta do pamięci podręcznej?
+< 2025-01-21 20:21:05.900 Klucz hosta nie jest buforowany dla tego serwera:
+< 2025-01-21 20:21:05.900 neptune.falixserver.net (port 2391)
+< 2025-01-21 20:21:05.900 Nie masz gwarancji, że serwer jest tym komputerem, o którym myślisz.
+< 2025-01-21 20:21:05.900     Odcisk palca klucza ssh-ed25519 to:
+< 2025-01-21 20:21:05.900     ssh-ed25519 255 hCYN57mup2WvjZtwukcprsS5o6Hm330cniNT8iTuky0
+< 2025-01-21 20:21:05.901 Jeśli ufasz temu hostowi, wybierz Zakceptuj, aby dodać klucz do pamięci podręcznej WinSCP i kontynuuj łączenie.
+< 2025-01-21 20:21:05.901 Jeśli chcesz kontynuować łączenie tylko raz, bez dodawania klucza do pamięci podręcznej, wybierz Połącz raz.
+< 2025-01-21 20:21:05.901 Jeśli nie ufasz temu hostowi, wybierz Anuluj, aby porzucić połączenie.
+< 2025-01-21 20:21:05.901 W skryptach, należy używać parametru -hostkey, aby skonfigurować oczekiwanego klucza hosta.
+. 2025-01-21 20:21:18.237 Answer: Cancel
+. 2025-01-21 20:21:18.237 Attempt to close connection due to fatal exception:
+* 2025-01-21 20:21:18.237 Odcisk palca klucza hosta to ssh-ed25519 255 hCYN57mup2WvjZtwukcprsS5o6Hm330cniNT8iTuky0.
+* 2025-01-21 20:21:18.237 (Exception) **Klucz hosta nie został zweryfikowany!**
+. 2025-01-21 20:21:18.237 Closing connection.
+< 2025-01-21 20:21:18.237 Script: Klucz hosta nie został zweryfikowany!
+< 2025-01-21 20:21:18.237 Odcisk palca klucza hosta to ssh-ed25519 255 hCYN57mup2WvjZtwukcprsS5o6Hm330cniNT8iTuky0.
+< 2025-01-21 20:21:18.237 Autoryzacja nie powiodła się.
